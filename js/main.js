@@ -31,4 +31,10 @@ $('.grid-full h5').on('sticky-start', function(){
 });
 
 
-$('.slides').slick();
+$('.slides').slick({
+  fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    dots: true,
+});
