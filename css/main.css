@@ -342,6 +342,14 @@ footer {
   }
 }
 
-header {
+.header {
   background-color: white;
+  transition: ls;
+}
+.is-sticky .header {
+  background-color: black;
+}
+
+.is-sticky .header a {
+  color: red;
 }
