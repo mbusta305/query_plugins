@@ -353,3 +353,7 @@ footer {
 .is-sticky .header a {
   color: red;
 }
+
+.is-sticky .header strong {
+  color: blue;
+}
