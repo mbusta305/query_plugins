@@ -29,3 +29,6 @@ $('.grid-full h5').sticky({
 $('.grid-full h5').on('sticky-start', function(){
   $(this).html('Want us to work on your project? <a href="mailto:email@website.com" class="email-text">Email&nbsp;us</a>');
 });
+
+
+$('.slides').slick();
